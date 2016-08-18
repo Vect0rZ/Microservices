@@ -1,9 +1,0 @@
-D:\VSProjects\Microservices\EventCommandModelling\bin\Debug\EventCommandModelling.dll
-D:\VSProjects\Microservices\EventCommandModelling\bin\Debug\EventCommandModelling.pdb
-D:\VSProjects\Microservices\EventCommandModelling\obj\Debug\EventCommandModelling.dll
-D:\VSProjects\Microservices\EventCommandModelling\obj\Debug\EventCommandModelling.pdb
-D:\VSProjects\MicroservicesModelling\bin\Debug\EventCommandModelling.dll
-D:\VSProjects\MicroservicesModelling\bin\Debug\EventCommandModelling.pdb
-D:\VSProjects\MicroservicesModelling\obj\Debug\MicroserviceModelling.csprojResolveAssemblyReference.cache
-D:\VSProjects\MicroservicesModelling\obj\Debug\EventCommandModelling.dll
-D:\VSProjects\MicroservicesModelling\obj\Debug\EventCommandModelling.pdb
