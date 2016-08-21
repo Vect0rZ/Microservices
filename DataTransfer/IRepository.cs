@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Microservices.DataTransfer
 {
-    public interface IRepository<E, EId> where E : IDataEntity
+    public interface IRepository<E, EId> where E : IDataEntity<EId>
     {
         E GetById(EId id);
         IEnumerable<E> GetAll();

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Microservices.DataTransfer
 {
-    public interface IDataEntity
+    public interface IDataEntity<T>
     {
+        T Id { get; set; }
     }
 }
