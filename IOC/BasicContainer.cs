@@ -14,6 +14,11 @@ namespace EventCommandModelling.IOC
 
         public void Register<I, T>(T instance)
         {
+            if (!typeof(I).IsAssignableFrom(typeof(T)))
+            {
+                throw new ArgumentException("The interface is not assignable from the given instance type.");
+            }
+
             _instances.Add(typeof(I), instance);
         }
 
