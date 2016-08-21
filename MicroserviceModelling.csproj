@@ -47,11 +47,13 @@
     <Compile Include="CQRS\IMessage.cs" />
     <Compile Include="IOC\BasicContainer.cs" />
     <Compile Include="MessageHandshakeSocket.cs" />
+    <Compile Include="Microservices\MicroService.cs" />
     <Compile Include="Packet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Data_Test.cs" />
     <Compile Include="Transport\IPublishSubscribe.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
