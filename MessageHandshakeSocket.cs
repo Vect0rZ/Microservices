@@ -6,7 +6,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MicroserviceModelling
+namespace Microservices
 {
     [Serializable]
     public class MessageHandshakeSocket

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MicroserviceModelling.CQRS
+namespace Microservices.CQRS
 {
     public interface ICommand : IMessage
     {

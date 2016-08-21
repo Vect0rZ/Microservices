@@ -1,13 +1,13 @@
-﻿using EventCommandModelling.IOC;
-using EventCommandModelling.Transport;
-using MicroserviceModelling.CQRS;
+﻿using Microservices.IOC;
+using Microservices.Transport;
+using Microservices.CQRS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventCommandModelling.Microservices
+namespace Microservices.Microservices
 {
     public abstract class MicroService
     {

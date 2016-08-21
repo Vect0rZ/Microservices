@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventCommandModelling.DataTransfer
+namespace Microservices.DataTransfer
 {
     public interface IRepository<E, EId> where E : IDataEntity
     {

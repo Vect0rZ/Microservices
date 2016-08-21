@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventCommandModelling.IOC
+namespace Microservices.IOC
 {
     public class BasicContainer
     {

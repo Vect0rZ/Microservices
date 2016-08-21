@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MicroserviceModelling.CQRS;
+using Microservices.CQRS;
 
-namespace MicroserviceModelling
+namespace Microservices
 {
     [Serializable]
     public class RegisterUser : ICommand
