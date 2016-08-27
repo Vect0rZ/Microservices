@@ -10,7 +10,7 @@ namespace Microservices.Transport
     public interface IPublishSubscribe
     {
         void Publish(IMessage message);
-        void RegisterHandler<T>(Action<T> handler) where T : IMessage;
+        void RegisterHandler<T>(Action<string> handler);
         void Connect();
     }
 }
