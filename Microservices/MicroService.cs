@@ -2,10 +2,6 @@
 using Microservices.Transport;
 using Microservices.CQRS;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microservices.DataTransfer;
 
 namespace Microservices.Microservices

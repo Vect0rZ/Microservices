@@ -23,7 +23,7 @@ namespace Microservices
 
         public Guid ServiceId { get; set; } 
 
-        public List<Type> MessageSubscriptions = new List<Type>();
+        public List<string> MessageSubscriptions = new List<string>();
 
         [NonSerialized]
         public TcpClient Client;

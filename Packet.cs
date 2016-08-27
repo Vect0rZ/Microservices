@@ -11,6 +11,6 @@ namespace Microservices
     public class Packet
     {
         public Guid SenderId { get; set; }
-        public IMessage Message { get; set; }
+        public object Message { get; set; }
     }
 }

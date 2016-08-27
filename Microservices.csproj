@@ -45,6 +45,7 @@
     <Compile Include="CQRS\IHandleCommand.cs" />
     <Compile Include="CQRS\IHandleEvent.cs" />
     <Compile Include="CQRS\IMessage.cs" />
+    <Compile Include="CQRS\Event.cs" />
     <Compile Include="DataTransfer\IDataEntity.cs" />
     <Compile Include="DataTransfer\IRepository.cs" />
     <Compile Include="IOC\BasicContainer.cs" />

@@ -10,8 +10,8 @@ namespace Microservices.DataTransfer
     {
         E GetById(EId id);
         IEnumerable<E> GetAll();
-        bool Add(E entity);
-        bool Update(E entity);
-        bool Delete(EId id);
+        EId Add(E entity);
+        EId Update(E entity);
+        EId Delete(EId id);
     }
 }
